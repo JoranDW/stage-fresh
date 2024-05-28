@@ -26,8 +26,6 @@ class acties
 
             $deadline = date('d-m-Y', strtotime($deadline));
 
-            var_dump($deadline);
-            exit();
 
             $stmt = $conn->prepare("INSERT INTO taken (titel, beschrijving, status, prioriteit, deadline) VALUES (:titel, :beschrijving, :status, :prioriteit, :deadline)");
             $stmt->bindParam(':titel', $titel);

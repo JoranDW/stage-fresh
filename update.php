@@ -75,12 +75,12 @@ $row = $db->retrieve($id);
 
             <div class="mb3">
                 <label for="titel_id" class="form-label">Titel':</label>
-                <input type="text" id="titel_id" name="titel" maxlength="15" required="required"
+                <input type="text" id="titel_id" name="titel" maxlength="20" required="required"
                        class="form-control" value="<?php echo $row['titel'] ?>">
             </div>
             <div class="mb-3">
                 <label for="beschrijving_id" class="form-label">Beschrijving:</label>
-                <input type="text" id="beschrijving_id" name="beschrijving" maxlength="50" required="required"
+                <input type="text" id="beschrijving_id" name="beschrijving" maxlength="100" required="required"
                        class="form-control" value="<?php echo $row['beschrijving'] ?>">
             </div>
             <div class="mb-3">
