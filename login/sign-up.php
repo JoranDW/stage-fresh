@@ -63,7 +63,7 @@
 <body>
 <div class="main">
     <header class="m-3 p-3">
-        <img src="../img/images.png" alt="Logo" class="logo">
+        <img src="../../stage/from%20opdracht/img/images.png" alt="Logo" class="logo">
         <h3>Vul dit in om een account aan te maken:</h3>
     </header>
     <div class="d-flex justify-content-center">

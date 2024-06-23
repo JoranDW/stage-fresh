@@ -59,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <div class="container d-flex flex-column align-items-end">
     <div class="container d-flex justify-content-end">
         <a href="create.php" class="btn btn-success mx-3 mb-3">Taak toevoegen</a>
-        <form method="post" action="login/login.php" class="">
+        <form method="post" action="../../Dynasty/login/login.php" class="">
             <button type="submit" name="logout" class="btn btn-danger mb-3">Uitloggen</button>
         </form>
     </div>
